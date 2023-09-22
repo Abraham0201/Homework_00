@@ -23,7 +23,6 @@ public class Q5 {
 		} else {
 			int sum = 0;
 			for (int i = 0; i < dofm.length; i++) {
-
 				sum += dofm[i];
 				if ((m - 1) == (i + 1)) {
 					break;
