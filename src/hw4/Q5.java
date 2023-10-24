@@ -1,8 +1,8 @@
 package hw4;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Scanner;
-
-import javax.print.attribute.standard.JobMessageFromOperator;
 
 public class Q5 {
 	public static void main(String[] arg) {
@@ -11,6 +11,8 @@ public class Q5 {
 		int y = scanner.nextInt();
 		int m = scanner.nextInt();
 		int d = scanner.nextInt();
+//		Calendar cal = new GregorianCalendar(y,m,d);
+//		System.out.println(cal.get(Calendar.DAY_OF_YEAR));
 		int[] dofm = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 		if (y < 0 || m < 1 || m > 12) {
 			System.out.println("輸入格式錯誤");
